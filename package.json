@@ -1,6 +1,6 @@
 {
   "name": "dhcp-mon",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "NodeJS implementation of DHCP socket connection",
   "main": "out/index.js",
   "module": "out/index.mjs",
