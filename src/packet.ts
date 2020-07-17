@@ -110,7 +110,7 @@ export class Packet {
      * @memberOf Packet
      */
     public toBuffer(): Buffer {
-        const buffer = Buffer.alloc(512);
+        const buffer = Buffer.alloc(576);
         buffer.fill(0);
 
         buffer[0] = this.op;
